@@ -38,11 +38,11 @@ __plugin_meta__ = PluginMetadata(
     description="通过戳一戳获取服务器状态",
     usage=(
         "通过QQ私聊戳一戳或拍一拍头像获取机器人服务器状态\n"
-        "或者通过发送指令 `status/状态` 获取机器人服务器状态\n"
-        "可以通过配置文件修改服务器状态模板"
+        "或者通过发送指令「status」/「状态」获取机器人服务器状态\n"
+        "可以通过配置文件修改服务器状态文字模板"
     ),
     type="application",
-    homepage="https://github.com/cscs181/QQ-GitHub-Bot/tree/master/src/plugins/nonebot_plugin_status",
+    homepage="https://github.com/nonebot/plugin-status",
     config=Config,
     supported_adapters=None,
 )
