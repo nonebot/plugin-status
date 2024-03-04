@@ -5,11 +5,10 @@ description = "Check your server status (CPU, Memory, Disk Usage) via nonebot"
 license = "MIT"
 authors = ["yanyongyu <yyy@nonebot.dev>"]
 readme = "README.md"
-homepage = "https://github.com/cscs181/QQ-GitHub-Bot/tree/master/src/plugins/nonebot_plugin_status"
-repository = "https://github.com/cscs181/QQ-GitHub-Bot/tree/master/src/plugins/nonebot_plugin_status"
-documentation = "https://github.com/cscs181/QQ-GitHub-Bot/tree/master/src/plugins/nonebot_plugin_status#readme"
+homepage = "https://github.com/nonebot/plugin-status"
+repository = "https://github.com/nonebot/plugin-status"
+documentation = "https://github.com/nonebot/plugin-status#readme"
 keywords = ["nonebot", "nonebot2", "server", "status"]
-packages = [{ include = "nonebot_plugin_status/*.py", from = ".." }]
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -20,7 +19,7 @@ nonebot2 = "^2.2.0"
 nonebot-adapter-onebot = { version = "^2.0.0-beta.1", optional = true }
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.2.0"
+ruff = "^0.3.0"
 isort = "^5.10.1"
 black = "^24.0.0"
 nonemoji = "^0.1.3"
