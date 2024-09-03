@@ -111,7 +111,7 @@ async def server_status(matcher: Matcher):
     await matcher.send(message=await render_template())
 
 
-from . import common as common  # noqa: E402
+from . import common as common
 
 with contextlib.suppress(ImportError):
     import nonebot.adapters.onebot.v11  # noqa: F401
