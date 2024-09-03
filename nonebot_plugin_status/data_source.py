@@ -2,7 +2,7 @@
 @Author         : yanyongyu
 @Date           : 2020-09-18 00:15:21
 @LastEditors    : yanyongyu
-@LastEditTime   : 2024-09-03 09:14:01
+@LastEditTime   : 2024-09-03 09:16:34
 @Description    : Getting status of the bot and the mechine
 @GitHub         : https://github.com/yanyongyu
 """
@@ -69,7 +69,7 @@ async def per_cpu_status() -> list[float]:
     """Get the CPU usage status of each core."""
     psutil.cpu_percent(percpu=True)
     await asyncio.sleep(0.5)
-    return psutil.cpu_percent(percpu=True)  # type: ignore
+    return psutil.cpu_percent(percpu=True)
 
 
 def get_memory_status():

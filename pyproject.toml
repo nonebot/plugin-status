@@ -12,10 +12,10 @@ keywords = ["nonebot", "nonebot2", "server", "status"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-psutil = "^5.7.2"
 Jinja2 = "^3.0.0"
 humanize = "^4.0.0"
 nonebot2 = "^2.2.0"
+psutil = ">=5.7.2, <7.0.0"
 nonebot-adapter-onebot = { version = "^2.0.0-beta.1", optional = true }
 
 [tool.poetry.group.dev.dependencies]
