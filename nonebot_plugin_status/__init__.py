@@ -2,7 +2,7 @@
 @Author         : yanyongyu
 @Date           : 2020-09-18 00:00:13
 @LastEditors    : yanyongyu
-@LastEditTime   : 2023-12-01 10:41:28
+@LastEditTime   : 2024-09-03 09:14:24
 @Description    : Status plugin
 @GitHub         : https://github.com/yanyongyu
 """
@@ -11,7 +11,7 @@ __author__ = "yanyongyu"
 
 import inspect
 import contextlib
-from typing import Any, Dict
+from typing import Any
 
 from jinja2 import Environment
 from nonebot.matcher import Matcher
@@ -84,7 +84,7 @@ if not set(_t_vars).issubset(KNOWN_VARS):
     )
 
 
-async def _solve_required_vars() -> Dict[str, Any]:
+async def _solve_required_vars() -> dict[str, Any]:
     """Solve required variables for template rendering."""
     return (
         {
