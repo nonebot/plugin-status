@@ -9,7 +9,6 @@
     "vscode": {
       "settings": {
         "python.analysis.diagnosticMode": "workspace",
-        "python.analysis.typeCheckingMode": "basic",
         "ruff.organizeImports": false,
         "[python]": {
           "editor.defaultFormatter": "ms-python.black-formatter",
